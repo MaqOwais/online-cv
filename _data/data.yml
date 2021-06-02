@@ -4,18 +4,18 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Muhammed Abdul Quadir Owais
     tagline: Software Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: owais.JPF  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: quadirowais200@gmail.com
 #     phone: -
 #     website: - #do not add http://
-    linkedin: https://www.linkedin.com/in/muhammed-abdul-quadir-owais-aa1593199/
+    linkedin: muhammed-abdul-quadir-owais-aa1593199/
     github: MaqOwais
 #     gitlab:
 #     bitbucket:
@@ -33,31 +33,31 @@ sidebar:
       - idiom: Telugu
         level: 7/10
         
-    interests:
-      - item: Climbing
-        link:
+#     Profiles Handles:
+#       - item: GitHub
+#         link: https://github.com/MaqOwais
 
-      - item: Snowboarding
-        link:
+#       - item: LinkedIn
+#         link: https://www.linkedin.com/in/muhammed-abdul-quadir-owais-aa1593199/
 
-      - item: Cooking
-        link:
+# #       - item: Cooking
+#         link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#       Donec quam felis, ultricies nec, pellentesque eu.
 
-      Second paragraph if required.
+#       Second paragraph if required.
 
 education:
     - degree: Bachelor of Engineering (B.E.) in Electronics and Communication Engineering (ECE)
-      university: University College Of Engineering (UCEOU http://uceou.edu/), Hyderabad
-
+      university: University College Of Engineering (UCEOU), Hyderabad
+      link: "http://uceou.edu/"
       time: 2018 - 2022
 #       details: |
 #         Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -135,8 +135,7 @@ projects:
 #       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Web development
-        period: {May 2020 - July 2020}
+      - title: Web development {May 2020 - July 2020}
         link: "https://github.com/MaqOwais/django_blog_stuff"
         tagline: "The website has the features like Authentication (Log in/log-off), Searching blogs/items, 
                   Archive page, adding the geoIp2(to get the geolocation of user), Share option, 
@@ -146,16 +145,14 @@ projects:
                   The other website also had the same above features and Google API for maps and Signin, 
                   Shopping the items like adding items to cart and removing items pricing, etc,... "
 
-      - title: Open source development
-        period: {Feb 2020 - Apr 2020, Nov 2020 - Apr 2021}
+      - title: Open source development {Feb 2020 - Apr 2020, Nov 2020 - Apr 2021}
         link: "https://github.com/pulls?q=is%3Apr+author%3AMaqOwais+archived%3Afalse+is%3Aclosed"
         tagline: "Did a lot of commits along the way writing test cases, 
                     fixing bugs, reviewing code, addressing the issues, 
                     and developing unfinished work under the solvers' module in Sympy (mostly development of Lambert equations).
 "
 
-      - title: Applied to Google Summer of Code twice with full dedication
-        period: {Apr 2020, Apr 2021}
+      - title: Applied to Google Summer of Code twice with full dedication {Apr 2020, Apr 2021}
         link: "https://docs.google.com/document/d/1QUIEY5Ta0Q8bDVaDLTvXwCjAnPOb7KTY_E3LPkeg60U/edit#heading=h.bcesu5szko6g"
         tagline: "In this link the details are shared nicely"
 #       - title: Atom
@@ -165,6 +162,7 @@ projects:
 #       - title: Delta
 #         link: "#"
 #         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
 
 # publications:
 #     title: Publications
@@ -196,8 +194,11 @@ skills:
 #       - name:  jQuery
 #         level: %
 
-      - name: Java & Javascript & c++ & c 
+      - name: Java & Javascript
         level: 50%
+
+      - name: c++ & c 
+        level: 40%
 
       - name: HTML5 & CSS & jQuery & Bootstrap
         level: 70%
