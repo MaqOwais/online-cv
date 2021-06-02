@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+#     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -55,17 +55,14 @@ sidebar:
 #       Second paragraph if required.
 
 education:
-    - degree: Bachelor of Engineering (B.E.) in Electronics and Communication Engineering (ECE)
-      university: University College Of Engineering (UCEOU), Hyderabad
+    - degree: Bachelor of Engineering (B.E.)
+      university: University College Of Engineering Osmania University(UCEOU), Hyderabad
       link: "http://uceou.edu/"
-      time: 2018 - 2022
-#       details: |
-#         Describe your study here lorem ipsum dolor sit amet, consectetuer
-#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-#         sociis natoque penatibus et magnis dis parturient montes, nascetur
-#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-#         pretium quis, sem.
-
+#       time: 2018 - 2022
+      details: |
+            Currently pursuing 4 year Bachelor of Engineering (B.E.) in Electronics and Communication Engineering (ECE),
+            at University College Of Engineering (UCEOU), Hyderabad and expected to be completed by 2022 (i.e. 2018 - 2022). 
+            With interest inclining more towards software development.
 #           - Bullet point
 #           - Bullet point 
 
